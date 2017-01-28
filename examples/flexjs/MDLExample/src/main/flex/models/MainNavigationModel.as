@@ -53,6 +53,7 @@ package models
         }
 
         private var _componentsTabs:Array = [
+            new NavigationLinkVO("Blog", "blog_panel"),
             new NavigationLinkVO("Cards", "cards_panel"),
             new NavigationLinkVO("Chips", "chips_panel"),
             new NavigationLinkVO("Sliders", "sliders_panel"),
