@@ -220,6 +220,15 @@ DateChooser {
 	height: 240px;
 }
 
+BindableDateChooser {
+	IBeadView:   ClassReference("org.apache.royale.html.beads.DateChooserView");
+	IBeadModel:  ClassReference("org.apache.royale.html.beads.models.BindableDateChooserModel");
+	IBeadLayout: ClassReference("org.apache.royale.html.beads.layouts.VerticalFlexLayout");
+	IBeadController: ClassReference("org.apache.royale.html.beads.controllers.DateChooserMouseController");
+	width:  280px;
+	height: 240px;
+}
+
 DateChooserList {
 	IDataProviderItemRendererMapper: ClassReference("org.apache.royale.html.beads.DataItemRendererFactoryForArrayData");
 	IItemRendererClassFactory: ClassReference("org.apache.royale.core.ItemRendererClassFactory");
