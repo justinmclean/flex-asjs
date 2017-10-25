@@ -147,6 +147,8 @@
     <component id="TextItemRendererFactoryForStringVectorData" class="org.apache.royale.html.beads.TextItemRendererFactoryForStringVectorData" />
 
     <component id="DateChooser" class="org.apache.royale.html.DateChooser"/>
+    <component id="BindableDateChooser" class="org.apache.royale.html.BindableDateChooser"/>
+    <component id="BindableDateChooserModel" class="org.apache.royale.html.beads.models.BindableDateChooserModel"/>
     <component id="DateChooserList" class="org.apache.royale.html.supportClasses.DateChooserList" />
     <component id="DateChooserHeader" class="org.apache.royale.html.supportClasses.DateChooserHeader" />
     <component id="DateField" class="org.apache.royale.html.DateField"/>
